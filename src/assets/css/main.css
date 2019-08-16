@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+}
+.App{
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+.main{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.boxes{
+    background: #fff;
+    display: flex;
+    padding: 20px; 
+    
+}
+.box{
+    border:1px solid #000;
+    margin:2px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.guess {
+    width: 100%;
+}
+.guess button{
+    border:1px solid #000;
+    cursor: pointer;
+    color: #000;
+    margin: 1%;
+    height:30px;
+    width:18%;
+    text-align: center;
+    font-size: 15px;
+}
+.word:hover{
+    background: #000;
+    color: #fff;
+    border: none;
+}
+.pazzle-wrapper{
+    background: #fff;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box
+    
+}
+.test input{
+    height: 30px;
+    width:100%;
+}
+.test button {
+    background-color: #4f7fdf;
+    border: none;
+    margin-top: 10px;
+    color:#fff;
+    height: 30px;
+    width: 100%;
+}
